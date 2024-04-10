@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/wanes'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/safi963/Lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('wanes-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('wanes-225')                                                         //<------change this
     }
 
     stages {
